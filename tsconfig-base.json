@@ -7,8 +7,6 @@
     "incremental": true,
     /* Enable constraints that allow a TypeScript project to be used with project references. */
     "composite": true,
-    /* Specify the path to .tsbuildinfo incremental compilation file. */
-    // "tsBuildInfoFile": "./dist/ts/.tsbuildinfo",
 
     /* Language and Environment */
     /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */

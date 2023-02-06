@@ -1,5 +1,10 @@
 {
   "extends": "./tsconfig-base.json",
+  "compilerOptions": {
+    /* Specify the path to .tsbuildinfo incremental compilation file. */
+    "tsBuildInfoFile": "./dist/ts/.tsbuildinfo",
+    "outDir": "./dist"
+  },
   "references": [
     {
       "path": "./async-action-pump"

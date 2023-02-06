@@ -6,7 +6,6 @@
   ],
   "scripts": {
     "lint": "eslint --ext .js,.ts .",
-    "build": "yarn --cwd async-action-pump build && yarn --cwd event-utils build",
-    "watch": "tsc -w"
+    "build": "yarn --cwd ./async-action-pump build && yarn --cwd ./event-utils build"
   }
 }
