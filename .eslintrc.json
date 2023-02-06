@@ -13,5 +13,6 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "rules": {}
+  "rules": {},
+  "ignorePatterns": ["dist/", "**/node_modules/"]
 }
