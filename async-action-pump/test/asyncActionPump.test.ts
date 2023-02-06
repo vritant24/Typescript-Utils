@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { describe, expect, it } from "vitest";
-import { AsyncActionPump } from "../asyncActionPump";
+import { AsyncActionPump } from "../src/asyncActionPump";
 
 function noOpErrorHandler() {
   return;

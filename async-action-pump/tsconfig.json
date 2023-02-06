@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig-base.json",
+  "compilerOptions": {
+    "outDir": "../dist/async-action-pump",
+    "rootDir": ".",
+    "paths": {
+      "event-utils": ["../event-utils"]
+    }
+  },
+  "references": [
+    {
+      "event-utils": "../event-utils"
+    }
+  ]
+}

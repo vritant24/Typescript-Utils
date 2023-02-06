@@ -1,0 +1,90 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Projects */
+    /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
+    "incremental": true,
+    /* Enable constraints that allow a TypeScript project to be used with project references. */
+    "composite": true,
+    /* Specify the path to .tsbuildinfo incremental compilation file. */
+    // "tsBuildInfoFile": "./dist/ts/.tsbuildinfo",
+
+    /* Language and Environment */
+    /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "target": "ES2015",
+
+    /* Modules */
+    /* Specify what module code is generated. */
+    "module": "CommonJS",
+
+    /* Emit */
+    /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    "declaration": true,
+    /* Create sourcemaps for d.ts files. */
+    "declarationMap": true,
+    /* Create source map files for emitted JavaScript files. */
+    "sourceMap": true,
+    /* Specify emit/checking behavior for imports that are only used for types. */
+    "importsNotUsedAsValues": "remove",
+    // "sourceRoot": "",                                 /* Specify the root path for debuggers to find the reference source code. */
+    // "mapRoot": "",                                    /* Specify the location where debugger should locate map files instead of generated locations. */
+    // "declarationDir": "./",                           /* Specify the output directory for generated declaration files. */
+    // "emitDeclarationOnly": true,                      /* Only output d.ts files and not JavaScript files. */
+    // "removeComments": true,                           /* Disable emitting comments. */
+    // "noEmit": true,                                   /* Disable emitting files from a compilation. */
+    // "importHelpers": true,                            /* Allow importing helper functions from tslib once per project, instead of including them per-file. */
+
+    /* Interop Constraints */
+    /* Ensure that each file can be safely transpiled without relying on other imports. */
+    "isolatedModules": true,
+    /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "esModuleInterop": true,
+    /* Ensure that casing is correct in imports. */
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    /* Enable all strict type-checking options. */
+    "strict": true,
+    /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+    "noImplicitAny": true,
+    /* When type checking, take into account 'null' and 'undefined'. */
+    "strictNullChecks": true,
+    /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */
+    "strictFunctionTypes": true,
+    /* Check that the arguments for 'bind', 'call', and 'apply' methods match the original function. */
+    "strictBindCallApply": true,
+    /* Check for class properties that are declared but not set in the constructor. */
+    "strictPropertyInitialization": true,
+    /* Enable error reporting when 'this' is given the type 'any'. */
+    "noImplicitThis": true,
+    /* Default catch clause variables as 'unknown' instead of 'any'. */
+    "useUnknownInCatchVariables": true,
+    /* Ensure 'use strict' is always emitted. */
+    "alwaysStrict": true,
+    /* Enable error reporting when local variables aren't read. */
+    "noUnusedLocals": true,
+    /* Raise an error when a function parameter isn't read. */
+    "noUnusedParameters": true,
+    /* Enable error reporting for codepaths that do not explicitly return in a function. */
+    "noImplicitReturns": true,
+    /* Enable error reporting for fallthrough cases in switch statements. */
+    "noFallthroughCasesInSwitch": true,
+    /* Add 'undefined' to a type when accessed using an index. */
+    "noUncheckedIndexedAccess": true,
+    /* Ensure overriding members in derived classes are marked with an override modifier. */
+    "noImplicitOverride": true,
+    /* Enforces using indexed accessors for keys declared using an indexed type. */
+    "noPropertyAccessFromIndexSignature": true,
+    /* Disable error reporting for unused labels. */
+    "allowUnusedLabels": true,
+    /* Disable error reporting for unreachable code. */
+    "allowUnreachableCode": true,
+
+    /* Completeness */
+    /* Skip type checking .d.ts files that are included with TypeScript. */
+    "skipDefaultLibCheck": false,
+    "skipLibCheck": false
+  },
+  "exclude": ["**/node_modules", "dist", ".vscode"]
+}

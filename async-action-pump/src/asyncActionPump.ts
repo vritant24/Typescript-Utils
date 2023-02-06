@@ -1,4 +1,4 @@
-import { IDisposable } from "./utlitities";
+import { IDisposable } from "event-utils";
 
 type WrappedAsyncAction = () => Thenable<void>;
 type AsyncAction = () => Thenable<unknown>;
