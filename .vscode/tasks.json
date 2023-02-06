@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "dependsOn": ["watch event-utils", "watch async-action-pump"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "label": "watch all"
+    },
+    {
+      "type": "typescript",
+      "tsconfig": "event-utils/tsconfig.json",
+      "option": "watch",
+      "problemMatcher": ["$tsc-watch"],
+      "group": {
+        "kind": "build"
+      },
+      "label": "watch event-utils"
+    },
+    {
+      "type": "typescript",
+      "tsconfig": "async-action-pump/tsconfig.json",
+      "option": "watch",
+      "problemMatcher": ["$tsc-watch"],
+      "group": {
+        "kind": "build"
+      },
+      "label": "watch async-action-pump"
+    }
+  ]
+}
